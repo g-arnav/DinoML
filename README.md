@@ -1,2 +1,2 @@
 # DinoML
-An implementation of deep learning tp play the google chrome no internet dinosaur game.
+An implementation of deep learning to play the google chrome no internet dinosaur game.
