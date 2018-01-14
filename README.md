@@ -25,4 +25,4 @@ DinoMl uses a convolutional neural network that takes an input of the game scree
 ```
 python findArea.py
 ```
-Move your google chrome window around until the game fits into the displayed window like so:
+   Move your google chrome window around until the game fits into the displayed window like so:
