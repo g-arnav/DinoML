@@ -14,3 +14,8 @@ DinoMl uses a convolutional neural network that takes an input of the game scree
 * cv2        (pip install opencv-python)
 * pynput     (pip install pynput)
 * keyboard   (pip install keyboard)
+
+## Set-Up
+
+1. Download this repository
+2. cd into the fo
