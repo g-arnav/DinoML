@@ -36,3 +36,10 @@ $ python runSupervised.py
 If the dinosuar is unable to jump over any cacti this may be because of a significant difference in frames per second between your system and mine, and you may have to retrain the network.
 
 ## Retraining DinoML
+
+1. Make sure the program is looking at the correct area of the screen using findArea.py
+
+```
+$ python findArea.py
+```
+2. Run 
