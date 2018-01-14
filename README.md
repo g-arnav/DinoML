@@ -1,5 +1,5 @@
 # DinoML
-An implementation of deep learning to play the google chrome no internet dinosaur game.
+An implementation of deep learning with convolutional neural networks to play the google chrome no internet dinosaur game.
 
 ![giphy](https://user-images.githubusercontent.com/31298849/34912125-9ee2cf30-f88d-11e7-8e19-3de9e1faf5c2.gif)
 
@@ -73,8 +73,16 @@ $ python runSupervised.py
 
 ## Next Steps
 
-There are a lot of improvements that can be made to improve this model. Some easy ones could be gathering more training data and allowing it to train for longer. Also, a time input could be added to the network that is not considered in the convolutions so it can adapt to how the game gradually increases in speed. This would remedy how the bot always jumps early at first and, as the game goes on, gets slower and slower at jumping until it loses. 
+### On this Model
+There are a lot of improvements that can be made to improve this model. Some easy ones could be gathering more training data and allowing it to train for longer. Also, a time input could be added to the network that is not considered in the convolutions so it can adapt to how the game gradually increases in speed. This would remedy how the bot always jumps early at first and, as the game goes on, gets slower and slower at jumping until it loses.
 
 The architecture of the neural network could also be changed to be deeper and have larger hidden layers. However, I do not think this will lead to much of an improvement since it is only looking for basic shapes and does not even necessarily have to dirrentiate between them, only to recognize their position. Also, it would not need many more fully connected layers since again, the relation is pretty direct between the position of the shapes in the game and the decision of jumping.
 
-Another possibillity that I would be excited to try would be using methods other than supervised learning. This could be unsupervised learning through the use of Reinforcement Learning and DQN. This method would likely have to run for much longer in order to become comparable to supervised learning, but I beleive it could develop much better tactics for playing the game and become noticeably better than an average human player if given enough time. Another option could be to use a genetic algorithm. While this is not exactly machine learning, I beleive this method would still work just as well if not better. Its progression would likely be similar to that of Reinforcement Learning. This would probably take much longer, however, since it requires testing every randomly generating network on the game in realtime. This process could be sped up heavily if each run was simulated instead of run in realtime.
+### Recurrent Neural Network (RNN)
+Modifying this network to take sequences of data may result in improvement, as each game is a sequence of pictures put together. However, I do not think this would be very necessary as no earlier data or "memories" should significantly affect the decision to jump or not. Adding a time function as I mentioned before would likely result in a similar result.
+
+### Unsupervised Learning (Reinforcement Learning and DQN)
+Another possibillity that I would be excited to try would be unsupervised learning through the use of Reinforcement Learning and DQN. This method would likely have to run for much longer in order to become comparable to supervised learning, but I beleive it could develop much better (or at lesat more refined) tactics for playing the game and become noticeably better than an average human player if given enough time.
+
+### Genetic Algorithms
+While genetic algorithms are not exactly machine learning, I beleive this method would still work just as well if not better. Its progression would likely be similar to that of Reinforcement Learning. It would probably take much longer, however, since it requires testing every randomly generating network on the game in realtime. This process could be sped up heavily if each run was simulated instead of run in realtime. Also, since there are not very many different plausible tactics for the algorithm to find, so the results would not be very surprising.
