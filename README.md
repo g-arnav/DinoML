@@ -9,7 +9,7 @@ DinoMl uses a convolutional neural network that takes an input of the game scree
 
 ## How It Works
 
-
+For every frame, a screenshot is taken of the game. That is image is then resized to 10 by 40 pixels, turned black and white, and normalized to a value between 0 and 1. The array of data is then convoluted by 16 2x2x1 filters, 32 2x2x16 filters, and finally 64 2x2x32 filters, all with rectified linear units. It is then flattened to a size of 25,600 and put through three fully connected layers with sigmoid activation functions of size 25,600x256, 256x500, and 500x1. This final output represents the calculated probability for jumping to be the correct action. It then takes this number, which is between 0 and 1 due to the sigmoid function, and rounds it to serve as the final ouput. If this number is 1, it will input and hold the up arrow key. If it is 0, it will release the up arrow key and simply wait.
 
 ## Requirements
 
