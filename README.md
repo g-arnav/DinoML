@@ -15,7 +15,7 @@ DinoMl uses a convolutional neural network that takes an input of the game scree
 * pynput     (pip install pynput)
 * keyboard   (pip install keyboard)
 
-## Set-Up
+## Runinng DinoML
 
 1. Download and unpack the .zip for this repository.
 2. Open terminal and cd into the folder where you saved it.
@@ -26,3 +26,9 @@ DinoMl uses a convolutional neural network that takes an input of the game scree
 python findArea.py
 ```
    Move your google chrome window around until the game fits into the displayed window like so:
+<img width="600" alt="holder" src="https://user-images.githubusercontent.com/31298849/34912316-62c0946e-f893-11e7-9b5d-3176f3dac43d.png">
+5. Run runSupervised.py in terminal and then click onto your google chrome window.
+
+```
+python runSupervised.py
+```
