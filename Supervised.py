@@ -130,7 +130,3 @@ def run():
             else:
                 Input.Up(keyboard)
             print a
-
-
-train()
-#run()
