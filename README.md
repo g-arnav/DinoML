@@ -20,6 +20,7 @@ DinoMl uses a convolutional neural network that takes an input of the game scree
 1. Download and unpack the .zip for this reposirtoy.
 2. Open terminal and cd into the folder where you saved it.
 3. Run findArea.py 
+
 '''
 python findArea.py
 '''
