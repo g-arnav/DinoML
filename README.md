@@ -62,3 +62,5 @@ $ python trainSupervised.py
 $ python runSupervised.py
 ```
 ⋅⋅⋅If you are not satisfied with its performance, you can either: retrain the netowrk entirely, add more games using GetData.py, or let the model train for longer.⋅⋅⋅
+⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+
