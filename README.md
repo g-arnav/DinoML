@@ -9,6 +9,7 @@ DinoMl uses a convolutional neural network that takes an input of the game scree
 
 ## Requirements
 * OS X
+* python 2.6 or 2.7
 * Tensorflow (pip install tensorflow)
 * Numpy      (pip install numpy)
 * cv2        (pip install opencv-python)
@@ -64,3 +65,6 @@ $ python trainSupervised.py
 $ python runSupervised.py
 ```
 >If you are not satisfied with its performance, you can either: retrain the netowrk entirely, add more games using GetData.py, or let the model train for longer.
+
+## Next Steps
+
