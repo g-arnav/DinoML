@@ -17,10 +17,12 @@ DinoMl uses a convolutional neural network that takes an input of the game scree
 
 ## Set-Up
 
-1. Download and unpack the .zip for this reposirtoy.
+1. Download and unpack the .zip for this repository.
 2. Open terminal and cd into the folder where you saved it.
-3. Run findArea.py 
+3. Open the dinosaur game by starting google chrome, turning off the wifi, and searching for something.
+4. Run findArea.py in terminal.
 
 ```
 python findArea.py
 ```
+Move your google chrome window around until the game fits into the displayed window like so:
