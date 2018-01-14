@@ -55,6 +55,7 @@ I recommend capturing at least 10 games so there is enough data for the network 
 $ python trainSupervised.py
 ```
 This will take a while so I recommend allowing this to run overnight or for at least a couple hours depending on the speed of your computer. When you are satisfied with the accuracy (at least 95% of it will not work very well), hit Ctr + C and wait for a couple of seconds to allow the model to save. Make sure not to use Ctr + Z as this will delete the model.
+
 4. Run the model using runSupervised.py
 
 ```
